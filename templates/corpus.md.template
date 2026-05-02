@@ -1,0 +1,92 @@
+# Corpus — samples of [Name]'s writing
+
+Real samples, grouped by surface. When drafting for [Name], find the nearest analog here and match its tempo, structure, and register before worrying about individual word choices. Each entry opens with a one-line note on what's distinctive about the sample.
+
+Add new samples here as they come in. When a pattern repeats across three or more samples, promote it into `../SKILL.md` under "Phrases and patterns you actually use."
+
+---
+
+## iMessage / Texting
+
+<!-- This section is populated automatically by /build-my-voice -->
+<!-- Each sample should have: -->
+<!-- ### Sample title -->
+<!-- *Distinctive: one line on what's characteristic* -->
+<!-- ``` -->
+<!-- The verbatim message(s) -->
+<!-- ``` -->
+<!-- **Patterns to notice:** -->
+<!-- - What should a writer imitate? -->
+
+---
+
+## Slack DMs
+
+<!-- Not yet populated. To add samples: -->
+<!-- 1. Copy a real DM exchange that shows your voice -->
+<!-- 2. Add a "Distinctive:" note above it -->
+<!-- 3. Add "Patterns to notice:" below it -->
+<!-- 4. If a pattern appears 3+ times across samples, promote it to SKILL.md -->
+
+---
+
+## Slack public posts
+
+<!-- Same format as above. -->
+
+---
+
+## Emails (short / transactional)
+
+<!-- Same format as above. -->
+
+---
+
+## Emails (long-form / pitch)
+
+<!-- Same format as above. -->
+
+---
+
+## LinkedIn posts
+
+<!-- Same format as above. -->
+
+---
+
+## Technical docs
+
+<!-- Same format as above. -->
+
+---
+
+## PR descriptions / commit messages
+
+<!-- Same format as above. -->
+
+---
+
+## Cross-corpus observations
+
+**Promoted patterns:**
+<!-- Patterns confirmed across 3+ independent samples. These are reflected in SKILL.md. -->
+
+**Patterns to watch:**
+<!-- Patterns seen once or twice. Watch for more before promoting. -->
+
+---
+
+## How to add to this corpus
+
+When you have a new writing sample:
+
+1. Figure out the surface (DM? Tech doc? Pitch email?).
+2. Paste the verbatim sample under the matching heading.
+3. Write a one-line "Distinctive:" note above the sample naming what's characteristic about it.
+4. Add a "Patterns to notice:" section under the sample — what should a writer imitate?
+5. If the sample introduces a new pattern not yet reflected in SKILL.md, flag it in "Cross-corpus observations → Patterns to watch." Once the pattern appears in ~3 independent samples, promote it.
+6. If the sample contradicts existing guidance, update SKILL.md — don't just stack rules on top.
+
+Keep the corpus organized by surface, not by date. The goal is fast retrieval when matching voice to context.
+
+---
