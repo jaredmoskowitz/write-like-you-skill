@@ -1,0 +1,163 @@
+---
+name: [name]-voice
+description: Write in [Name]'s voice across any surface — texts, Slack, email, docs. Matches their tone, register, and phrasing patterns.
+---
+
+# [Name]'s Voice
+
+<!-- Intro paragraph: describe the core quality of this person's voice, and explain that it shifts with audience, stakes, and surface — but stays recognizable. One short paragraph is enough. -->
+
+[Name]'s voice is direct and specific without being terse. It shifts register depending on who they're talking to, how much is on the line, and what surface they're writing on — but the underlying sensibility stays consistent: they say what they mean, they don't pad, and they sound like a person rather than a committee.
+
+---
+
+## How to use this skill
+
+1. **Identify the surface.** Is this a text? A Slack DM? A cold email? A PR description? The surface determines which context-specific rules apply.
+2. **Pull the cross-context invariants.** Read the "Cross-context invariants" section. These rules apply everywhere, regardless of surface.
+3. **Layer on context-specific rules.** Go to the matching subsection under "Context-specific voice" and add those rules on top.
+4. **Run the before-sending checklist.** Before producing the final draft, mentally step through the checklist at the bottom of this file.
+5. **Consult the corpus.** When in doubt, find the nearest analog in `references/corpus.md` and match its tempo, structure, and register before worrying about individual word choices.
+
+---
+
+## Cross-context invariants (true everywhere)
+
+<!-- These are 5–8 rules that hold regardless of surface, audience, or stakes. They define the bedrock of this person's voice.
+     Things that commonly live here:
+     - How they open messages (do they skip pleasantries? do they lead with the point?)
+     - How they express opinions (hedged? confident? backed by reasoning?)
+     - How they handle uncertainty (do they admit it? paper over it? quantify it?)
+     - Fragment vs. full-sentence threshold (when do they drop articles? write one-word responses?)
+     - Humor style (dry? self-deprecating? punny? absent entirely?)
+     Fill in [Name]'s actual invariants below. Remove this comment when done. -->
+
+- **Point first.** Lead with the thing that matters. Context and qualifications come after, if at all.
+- **No filler openings.** Skip "Just wanted to reach out," "Hope you're well," and all variants. Start on the content.
+- **Opinions are stated, not performed.** If [Name] has a view, they say so directly — not "one might argue" or "it seems like maybe." They back opinions with a reason, not with intensity.
+- **Hedges are load-bearing or absent.** Use "I think" or "not sure, but" only when genuinely uncertain. Don't hedge as a social courtesy.
+- **Fragments are fine when the meaning is clear.** Full sentences when precision matters. Fragments when the rhythm calls for it.
+- **Specific over vague, always.** Concrete examples beat abstract summary. "Three-day turnaround" beats "quick turnaround."
+- **Humor is dry and situational.** If a joke lands, it lands because it's true — not because it was telegraphed.
+
+---
+
+## Context-specific voice
+
+### Text messages (iMessage)
+
+<!-- This section is populated by /build-my-voice when run against the iMessage corpus.
+     Rules here cover:
+     - Acknowledgment style (do they echo back? say "got it"? just move on?)
+     - Enthusiasm markers (exclamation points? "lol"? "haha"? none?)
+     - Multi-message bursts vs. one composed message
+     - Fragments vs. full sentences (is the threshold lower than in other surfaces?)
+     - Self-correction style (do they "/s" mistakes? send a follow-up? let it ride?)
+     - Story-sharing tempo (do they front-load the punchline or build to it?)
+     - No greetings or sign-offs
+     - Group chat behavior vs. 1:1 behavior
+     Run /build-my-voice to populate this section automatically. -->
+
+Not yet populated. Run `/build-my-voice` against your iMessage corpus to generate these rules.
+
+---
+
+### Slack DMs
+
+Not yet populated. Add samples to `references/corpus.md`, identify patterns, write rules here.
+
+---
+
+### Slack public posts
+
+Not yet populated. Add samples to `references/corpus.md`, identify patterns, write rules here.
+
+---
+
+### Short emails
+
+Not yet populated. Add samples to `references/corpus.md`, identify patterns, write rules here.
+
+---
+
+### Long-form / pitch emails
+
+Not yet populated. Add samples to `references/corpus.md`, identify patterns, write rules here.
+
+---
+
+### LinkedIn posts
+
+Not yet populated. Add samples to `references/corpus.md`, identify patterns, write rules here.
+
+---
+
+### Technical docs
+
+Not yet populated. Add samples to `references/corpus.md`, identify patterns, write rules here.
+
+---
+
+### PR descriptions / commit messages
+
+Not yet populated. Add samples to `references/corpus.md`, identify patterns, write rules here.
+
+---
+
+## Phrases and patterns you actually use
+
+<!-- Organize by function — what job does the phrase do? — not by surface.
+     Example categories:
+
+     **Acknowledgments** ("yeah," "yep," "makes sense," "got it," "on it")
+     **Enthusiasm** ("this is good," "love this," specific compliments rather than generic ones)
+     **Staking a position** ("I think X is right because...," "my read is...," "I'd push back on that —")
+     **Admitting limits** ("not sure on this one," "haven't thought it through fully," "worth a second opinion")
+     **Closings** ("let me know," "lmk," "up to you," "your call")
+
+     Populate this from the corpus. When a phrase appears 3+ times across independent samples, it belongs here. -->
+
+---
+
+## Phrases and patterns to avoid
+
+<!-- Universal anti-patterns. These apply regardless of surface. Add personal ones below the list. -->
+
+- "I hope this message finds you well."
+- "Just wanted to reach out to..."
+- "Per my last message..."
+- "Circling back..."
+- "Leverage" as a verb (unless literal).
+- "Synergy," "stakeholders," "value-add," "low-hanging fruit."
+- Apology pile-ups ("So sorry for the delay, really apologize, I know you've been waiting...")
+- Overly hedged claims that drain the sentence of meaning ("It's possible that in some cases this might...")
+- Starting with weather, wishing, or vibes ("Hope your week is going well!", "Happy Monday!")
+
+<!-- Add [Name]'s personal anti-patterns below. These could be filler words they over-use, corporate phrases that have crept in, or constructions that read like a different person. -->
+
+---
+
+## Before sending (checklist)
+
+1. **Point first.** Is the key information in the first sentence, or buried at the end?
+2. **Right register.** Does the formality match the surface and the relationship?
+3. **Hedging check.** Are hedges ("I think," "maybe," "not sure") load-bearing, or just decoration?
+4. **Opinions backed up.** If a position is staked, is there at least one reason given?
+5. **Filler killed.** Remove any opening that doesn't carry information. Remove any closing that's just throat-clearing.
+6. **Committee-voice check.** Does any sentence sound like it was written by a group trying not to offend anyone? Rewrite it.
+7. **Clear close.** Is it obvious what, if anything, the reader should do next?
+8. **Sounds like the person.** Read it aloud. Would [Name] actually say this?
+
+---
+
+## Corpus and updating this skill
+
+Samples live in `references/corpus.md`. When adding new samples:
+
+1. Find the right surface section and paste the verbatim sample.
+2. Write a one-line "Distinctive:" note above it naming what's characteristic.
+3. Add a "Patterns to notice:" section below — what should a writer imitate?
+4. If a pattern appears in 3+ independent samples, promote it into this file under "Phrases and patterns you actually use" or into the relevant context-specific section.
+5. If a sample contradicts existing guidance, update the rules here — don't just stack new rules on top of old ones.
+
+Keep this file under 500 lines. If it grows past that, the rules have gotten too granular — consolidate or move detail to the corpus.
