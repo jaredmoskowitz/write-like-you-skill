@@ -1,0 +1,61 @@
+---
+description: Rules for the write-like-you Claude Code skill
+globs: SKILL.md,templates/**,examples/**
+alwaysApply: false
+---
+
+# write-like-you-skill rules
+
+A Claude Code skill that mines iMessages and generates personalized voice skills. See [AGENTS.md](mdc:AGENTS.md) for full context.
+
+## Privacy is non-negotiable
+
+When generating any output (voice skill, corpus, examples), apply the privacy pass:
+
+- Strip phone numbers.
+- Reduce contact names to first names or generic labels (`a friend`, `coworker`).
+- Exclude private content categories: medical, financial, intimate.
+- Honor any explicit user exclusions.
+
+If you're unsure whether a sample is appropriate, leave it out.
+
+## No raw data in this repo
+
+- The generated voice skill is installed to `~/.claude/skills/<name>-voice/` — never inside this repo.
+- Don't commit mined messages, sanitized or otherwise.
+- Don't commit generated voice skills.
+
+## No network calls
+
+This skill must remain local-only. Don't add network requests, telemetry, or remote logging — neither in the build skill nor in templates that produce the generated skill.
+
+## Five-stage state machine
+
+[SKILL.md](mdc:SKILL.md) is a strict state machine: permissions → mining → analysis → review → generation. Don't reorder, skip stages, or proceed past Stage 1 if iMessage access isn't confirmed working.
+
+## Templates and SKILL.md must agree
+
+If you change the structure of [templates/SKILL.md.template](mdc:templates/SKILL.md.template) or [templates/corpus.md.template](mdc:templates/corpus.md.template):
+
+- Update Stage 4 ("Generation") in [SKILL.md](mdc:SKILL.md) to match the new structure.
+- Update the surface list in templates and SKILL.md so the stub sections agree.
+- Update the README's "Expanding to other surfaces" section if the workflow changes.
+
+## Anti-patterns in generated voice
+
+The whole point is voice that sounds like the user, not Claude. Templates and rules must avoid:
+
+- Corporate filler (`per my last email`, `circle back`, `synergize`)
+- Preamble padding (`I hope this message finds you well`)
+- Apology pile-ups (`Sorry, but I just wanted to...`)
+- Overly hedged claims (`I could be wrong, but maybe possibly...`)
+- Em-dash tics, `It's worth noting`, `I'd be happy to...`
+
+## Adding a new surface
+
+A new communication surface (e.g. SMS-with-non-iPhone-friends, Twitter DMs, Discord) requires:
+
+1. Stub heading in [templates/corpus.md.template](mdc:templates/corpus.md.template).
+2. Stub section in [templates/SKILL.md.template](mdc:templates/SKILL.md.template).
+3. Surface added to Stage 4's surface list in [SKILL.md](mdc:SKILL.md).
+4. Optional: update [README.md](mdc:README.md) if the user-facing workflow changes.
